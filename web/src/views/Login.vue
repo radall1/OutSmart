@@ -6,7 +6,7 @@
         Your birthday is {{ new Date(loggedInUser.birthday).toDateString()}}.
       </v-card-text>
       <v-card-text class="pt-0">
-        You have a crush on {{ loggedInUser.publicFigure }}.
+        Your secret cousin is {{ loggedInUser.publicFigure }}.
       </v-card-text>
       <div class="text-center">
         <v-btn color="error" @click="logout">Sign out</v-btn>
